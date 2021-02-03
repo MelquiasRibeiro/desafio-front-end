@@ -1,3 +1,4 @@
+![lang](https://img.shields.io/badge/language-Javascript-yellow) ![status](https://img.shields.io/badge/Status-WIP-orange)
 # Find a company
 veja mais sobre o projeto [Aqui](http://find_a_company.surge.sh/).
 
