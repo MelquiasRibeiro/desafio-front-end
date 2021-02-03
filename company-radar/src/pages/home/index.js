@@ -84,7 +84,7 @@ export default function Home() {
       </SearchContainer>
 
       <ResultsContainer>
-        {companies ? (
+        {companies.length !== 0 ? (
           <Carousel companies={companies} />
         ) : (
           <EmptyResult>

@@ -95,5 +95,6 @@ export const EmptyResult = styled.div`
   > p {
     font-size: 20px;
     color: ${secundaryColor};
+    margin-bottom: 55px;
   }
 `;
