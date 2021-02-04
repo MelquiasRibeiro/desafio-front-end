@@ -21,7 +21,11 @@ export default function ConfigCarousel({ companies }) {
     >
       <GridContainer>
         {companies.map((item) => (
-          <Link to={`/map/${item.name}`}>
+          <Link
+            to={`/map/${encodeURIComponent(item.name)}/${encodeURIComponent(
+              item.cnpj
+            )}/${item.city},${item.street}`}
+          >
             <CardContainer>
               <h1>{item.name}</h1>
               <p>Razão social</p>

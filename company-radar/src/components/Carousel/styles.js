@@ -9,7 +9,7 @@ export const CardContainer = styled.div`
   flex-direction: column;
   background-color: ${secundaryColor};
   width: 262px;
-  height: 240px;
+  height: 270px;
   border-radius: 8px;
   padding: 16px;
   margin: 0 16px;
