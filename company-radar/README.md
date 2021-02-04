@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+![lang](https://img.shields.io/badge/language-Javascript-yellow) ![status](https://img.shields.io/badge/Status-WIP-orange)
+# Find a company
+veja mais sobre o projeto [Aqui](http://find_a_company.surge.sh/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nesta aplicação você pode consultar endereço de empresas pelo CNPJ
 
-## Available Scripts
+## telas:
+o desing foi pensado com base no [protótipo](https://projects.invisionapp.com/share/Q6T6JI44FTY#/screens/376025914).
 
-In the project directory, you can run:
+![Screenshot from 2021-02-03 17-55-08](https://user-images.githubusercontent.com/54459438/106808491-37381480-6649-11eb-91c3-b83b869c99d1.png)
 
-### `npm start`
+![Screenshot from 2021-02-03 17-54-48](https://user-images.githubusercontent.com/54459438/106808541-461ec700-6649-11eb-8f40-0f028fde2685.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Screenshot from 2021-02-03 17-54-39](https://user-images.githubusercontent.com/54459438/106808563-4f0f9880-6649-11eb-9db8-1d18cf519fe4.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Como Rodar este projeto:
+1. clone o projeto em sua maquina ```git clone https://github.com/MelquiasRibeiro/mm-react-test-web.git```;
+2. instale as dependencias necessárias ```npm install```;
+3. inicie o projeto ```npm start``` e acesse localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conceitos abordados neste projeto:
++ Padronização de código com [Eslint](https://eslint.org/) e [Prettier](https://prettier.io/);
++ Roteamento com [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start);
++ [Styled Components](https://styled-components.com/);
++ Requisiçoes a API com o [Axios](https://www.npmjs.com/package/axios);
++ Armazenamento de dados no LocalStorage;
++ Renderização Condicional;
++ Tratamento de Erros;
++ Filtros;
